@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W.K.D.T WALALLAWITA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f6c00768f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-time" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Pursuing B.Sc (Hons) Degree in Computer Science</p>
+                <h1>Hi, I'm <span>Dimantha Walallawita</span><br>From Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dimantha.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>As an ambitious and dedicated
+                        undergraduate,I possess exceptional
+                        organizational and communication
+                        skills. I am highly motivated to learn
+                        and thrive in problem-solving, both
+                        independently and collaboratively. My
+                        primary objective is to secure a
+                        position in a software company,
+                        where I can gain valuable experience
+                        to pave the way for a successful
+                        career as a software engineer in the
+                        future.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                            <p class="tab-links" onclick="opentab('Awards')">Awards & Skills</p>
+                            <p class="tab-links" onclick="opentab('Voluntary')">Voluntary</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="Education">
+                            <ul>
+                                <li><span>BSC. (HONS) COMPUTER SCIENCE AND
+                                    SOFTWARE ENGINEERING                                    
+                                </span><br><span class="white" style="color: white;">University of Bedfordshire
+                                </span><br>Specialization: Software Engineering</li>
+                                
+                                <li><span>Secondary Education
+                                </span><br><span class="white" style="color: white;">Vidyartha College Kandy – (2006 - 2020)</span></li>
+
+                                <li><span>Advanced Level Examination
+                                </span><br><span class="white" style="color: white;">3 C passes & 1 S pass
+                                </span></li>
+
+                                <li><span>Ordinary Level Examination
+                                </span><br><span class="white" style="color: white;">6 A passes & 3 B passes
+                                </span></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Awards">
+                            <ul>
+                                <li><span>Awards<br></span>
+                                    <span style="color: white; ">Dean’s List - SLIIT Academy - 2022</span>
+                                </li>
+                                
+                                <li><span style="color: white;">Certification in the JavaScript - University of California</span>
+                                </li>
+                                    
+                                <li><span style="color: white;">CodeRally 3.0 hackathon - participation
+                                    Organized by the IEEE computer society student branch
+                                    chapter of IIT.</span>
+                                </li>
+
+                                <li><span style="color: white;">Certification in HackerRank - SQL</span>
+                                </li>
+
+                                <li><span>Skills<br>
+                                    </span><span style="color: white; ">HTML / CSS / JavaScript<br>MYSQL / PHPMyAdmin<br>
+                                        Java / C++ / C<br>
+                                        Android Studio<br>
+                                    </span></li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Voluntary">
+                            <ul>
+                                <li><span>Batch representative 2021 - 2022
+                                    </span></li>
+                                
+                                <li><span>All Island 2nd place - school music competition 2017</span></li>
+
+                                <li><span>Member - Photography club Vidyartha College Kandy</span></li>
+
+                                <li><span>Member - Media unit in Vidyartha College Kandy</span></li>
+                            </ul>
+                        </div>
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Looking to create a captivating online presence? Our web design service delivers visually
+                        stunning and highly functional websites. Our skilled designers blend creativity with industry
+                        trends to craft custom designs that reflect your brand's identity. From sleek layouts to intuitive
+                        interfaces, we ensure exceptional user experiences. Whether a new website or a redesign, our service integrates 
+                        aesthetics and functionality for online success. Elevate your online presence with our exceptional web design service.</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI Design</h2>
+                    <p>Are you tired of mediocre user experiences that leave your customers frustrated? Look no 
+                    further! Our expert UX design team is here to revolutionize your digital products. With a keen 
+                    eye for detail and a deep understanding of user behavior, we craft intuitive interfaces that captivate 
+                    and engage. From wireframes to prototypes, we ensure seamless interactions, delightful visuals, and unparalleled 
+                    user satisfaction. Elevate your brand with our cutting-edge UX design services today!</p>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-mobile-button"></i>
+                    <h2>App Design</h2>
+                    <p>Are you looking to enhance user experience and captivate your audience? Look no further than our expert mobile app 
+                    design service. We specialize in crafting visually stunning and intuitive interfaces that seamlessly blend aesthetics with functionality. 
+                    From wireframing to prototyping, our skilled designers bring your app ideas to life, ensuring a delightful and engaging user journey. 
+                    Transform your app into a masterpiece with our innovative and user-centric design solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project1png.png">
+                    <div class="layer">
+                        <h3>DressCode Web Application</h3>
+                        <p>It is a web Application for the clothing shop. Managing products, sales, customers, 
+                            transactions and advertisements can be done by using this application.<br><br><p style="text-align: left;">HTML<br>CSS<br>PHP<br>MYSQL<br>Ajax</p>
+                        </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project2.png">
+                    <div class="layer">
+                        <h3>Travel SriLanka Web Application</h3>
+                        <p>This website is done for foreigners who like to visit sri lanka. Using this website they 
+                            can get ideas about hotels, restaurants, and places to visit in Sri Lanka.<br><br><p style="text-align: left;">HTML<br>CSS<br>PHP<br>MYSQL<br>Ajax<br>Bootstrap</p>
+                        </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/project3.png">
+                    <div class="layer">
+                        <h3>Time Ticker Software</h3>
+                        <p>This software was created for managing products, employees, and transactions. 
+                            This is a first-year 2nd-semester project.<br><br><p style="text-align: left;">Java<br>PHPMyAdmin<br></p>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/project4.png">
+                    <div class="layer">
+                        <h3>2D Animation Short Movie</h3>
+                        <p>This project was done in the 2nd-year 1st semester. It is a 4-minute short movie about 
+                            soft drink advertising.<br><br><p style="text-align: left;">Adobe Illustrator<br>Adobe Premiere Pro<br>Adobe After Effect<br>Adobe Photoshop</p>
+                        </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> walallawitad@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +94711936100</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="WALALLAWITA W.K.D.T (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messsage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright C Dimantha Walallawita.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+    
+            for(tabcontemt of tabcontents){
+                tabcontemt.classList.remove("active-tab");
+            }
+    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeun.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
